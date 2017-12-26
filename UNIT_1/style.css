@@ -1,7 +1,34 @@
 body {
-    background-color: gold;
+    background-color: blue;
 }
 
-h1, p {
-    color: navy;
+h1, h3 {
+    color: black;
 }
+
+h1 {font-weight: bold;
+}
+
+#first {
+	color: white;
+}
+
+/*div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+}
+
+#name {
+	background: white;
+}
+
+#hex {
+	background: #ffffff;
+}
+
+#rgb {
+	background: rgb(255,255,255);
+}*/
