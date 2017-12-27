@@ -1,18 +1,50 @@
 body {
-    background-color: blue;
+    background: src="images/Photodackground.jpg");
+    background-size: cover;
+    color: #000000;
+    font-family: Helvetica;
+    font-weight: ExtraLight;
 }
 
-h1, p {
-    color: black;
+hr {
+	width: 200px;
 }
 
-h1 {font-weight: bold;
-}
-
-#first {
-	color: white;
+h1 {
+	font-weight: thin;
+	font-size: 30px;
+	text-align: center;
 }
 
 h3 {
-	color:black;
+	text-align: right;
 }
+
+h5 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#first {
+	text-transform: uppercase;
+}
+
+/*div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+}
+
+#name {
+	background: white;
+}
+
+#hex {
+	background: #ffffff;
+}
+
+#rgb {
+	background: rgb(255,255,255);
+}*/
