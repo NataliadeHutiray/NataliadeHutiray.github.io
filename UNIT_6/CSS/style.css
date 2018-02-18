@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster|Cabin');
+
+
+header {
+	background-color: #ffffff;
+	border:  0px black solid;
+    padding: 20px;
+}
+nav {
+  font-size: 1.8em;
+  float: right;
+}
+
+nav a {
+  text-decoration:none;
+  color: #000000;
+  margin: 1.8em;
+  display: inline-block;
+}
+article {
+	background-color: #ffffff;
+	border:  0px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: #ffffff;
+	border:  0px black solid;
+    padding: 20px;
+}
+div {
+	background-color: ##ffffff;
+	border:  0px black solid;
+    padding: 20px;
+}
+
+#two_column {
+    background-color: #ffffff;
+    border: 0px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #ffffff;
+    border: 0px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #ffffff;
+    border: 0px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+ul {
+	font-family: Cabin, sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+hr {
+	width: 200px;
+	height: 150px;
+	visibility: hidden;
+}
+h1 {
+	font-family: 'Lobster', serif;
+	font-size: 50px;
+	line-height: 0.3em;
+	text-align: center
+}
+h3 {
+	font-family: Cabin, sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: center
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
